@@ -16,5 +16,9 @@ sudo apt install curl
 ```
 sudo apt install git-all
 ```
-* [Installing zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
-* [Installing oh-my-zsh](https://ohmyz.sh/#install)
+* [Install zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+* [Install oh-my-zsh](https://ohmyz.sh/#install)
+* [Install pl10k](https://github.com/romkatv/powerlevel10k)
+* [Install Dracula theme](https://draculatheme.com/gnome-terminal)
+* [Install Autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)
+* [Install Autosuggestions](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
