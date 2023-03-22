@@ -1,4 +1,5 @@
 # style-linux-terminal
+![image](https://user-images.githubusercontent.com/101937929/226847796-b222beb3-6e00-4a10-b176-e3a5375196e4.png)
 
 * Update Linux box
 ```
