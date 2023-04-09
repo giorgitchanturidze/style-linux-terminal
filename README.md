@@ -1,6 +1,7 @@
 # style-linux-terminal
 
-![image](https://user-images.githubusercontent.com/101937929/226847796-b222beb3-6e00-4a10-b176-e3a5375196e4.png)
+![image](https://user-images.githubusercontent.com/101937929/230771726-9eb8fb60-510a-459d-9bc3-be6accb3f59e.png)
+
 
 * Update Linux box
 
