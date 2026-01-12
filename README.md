@@ -2,17 +2,18 @@
 
 ![image](https://user-images.githubusercontent.com/101937929/230771726-9eb8fb60-510a-459d-9bc3-be6accb3f59e.png)
 
-## 🛠 Install core components
+## 🛠 Installation
+### Core components
 
-* [ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
-* [Oh My Zsh](https://ohmyz.sh/#install)
-* [PL10K](https://github.com/romkatv/powerlevel10k)
-* [Dracula theme](https://draculatheme.com/gnome-terminal)
+1. [ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+2. [Oh My Zsh](https://ohmyz.sh/#install)
+3. [PL10K](https://github.com/romkatv/powerlevel10k)
+4. [Dracula theme](https://draculatheme.com/gnome-terminal)
 
-## 🛠 Install Plugins
+### Plugins
 
-* [Autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)
-* [Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
+5. [Autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)
+6. [Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
 
 ## ❓ Troubleshooting
 
