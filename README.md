@@ -15,7 +15,7 @@
 5. [Autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)
 6. [Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
 
-## ❓ Troubleshooting
+## ❓ Troubleshooting.
 
 ### **My icons are weird squares with question marks**
 
