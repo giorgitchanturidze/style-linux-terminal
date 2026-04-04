@@ -1,4 +1,4 @@
-# 🚀 Style Ubuntu Terminal
+# 🚀 Style Linux Terminal
 
 ![image](https://user-images.githubusercontent.com/101937929/230771726-9eb8fb60-510a-459d-9bc3-be6accb3f59e.png)
 
