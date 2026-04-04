@@ -265,11 +265,13 @@ ls ~/.zshrc.backup.* 2>/dev/null && echo "Restore one of the above with: mv <fil
 ---
 
 ## ⭐ Support
-
+ 
 If this helped you, consider giving the repo a star — it helps others find it!
-
+ 
+Want to support the project? [Buy me a coffee ☕](https://www.paypal.com/paypalme/snap7dev7)
+ 
 Found an issue or have a suggestion? [Open an issue](https://github.com/giorgitchanturidze/style-linux-terminal/issues) or submit a PR.
-
+ 
 ---
 
 ## 📜 License
