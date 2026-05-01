@@ -6,7 +6,7 @@
 
 ## ✨ What You Get
 
-- **[Zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)** — powerful shell that replaces Bash
+- **[Zsh](https://www.zsh.org/)** — powerful shell that replaces Bash
 - **[Oh My Zsh](https://ohmyz.sh/)** — plugin framework with 300+ plugins
 - **[Starship](https://starship.rs/)** — blazing-fast, cross-shell prompt written in Rust
 - **[Autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)** — command suggestions as you type
@@ -20,6 +20,14 @@
 |---|---|
 | **[⚡ Quick Start](#-quick-start)** | Run one script and you're done. Recommended for most users. |
 | **[🛠 Manual Installation](#-manual-installation)** | Step-by-step guide if you want full control. |
+
+---
+
+## 📋 Prerequisites
+
+- A supported distro: Ubuntu/Debian, Fedora, or Arch (and their derivatives)
+- `git` and `curl` installed
+- `sudo` access (to install packages and change your default shell)
 
 ---
 
@@ -82,6 +90,11 @@ chsh -s $(which zsh)
 
 Log out and back in (or restart your terminal) for the change to take effect.
 
+> 💡 If `chsh` complains that zsh is not a valid shell, register it first:
+> ```bash
+> echo "$(which zsh)" | sudo tee -a /etc/shells
+> ```
+
 ---
 
 ### 2. Install Oh My Zsh
@@ -110,34 +123,28 @@ Download and install [MesloLGS NF](https://github.com/ryanoasis/nerd-fonts/relea
 
 **Enable Starship in Zsh:**
 
-Disable the Oh My Zsh theme and add Starship init to the **end** of your `~/.zshrc`:
+In your `~/.zshrc`:
 
-```bash
-# Set this to empty so Oh My Zsh doesn't override Starship
-ZSH_THEME=""
+1. Set the Oh My Zsh theme to empty so it doesn't override Starship:
 
-# ... (keep the rest of your .zshrc) ...
+   ```bash
+   ZSH_THEME=""
+   ```
 
-# At the very end:
-eval "$(starship init zsh)"
-```
+2. Add the Starship init line at the **very bottom** of the file — it must come **after** `source $ZSH/oh-my-zsh.sh`, otherwise Oh My Zsh will overwrite the prompt:
 
-**Apply the Gruvbox Rainbow preset:**
+   ```bash
+   eval "$(starship init zsh)"
+   ```
+
+**Apply a preset:**
 
 ```bash
 mkdir -p ~/.config
 starship preset gruvbox-rainbow -o ~/.config/starship.toml
 ```
 
-Want a different look? Browse all presets at [starship.rs/presets](https://starship.rs/presets/):
-
-```bash
-# Tokyo Night
-starship preset tokyo-night -o ~/.config/starship.toml
-
-# Nerd Font Symbols
-starship preset nerd-font-symbols -o ~/.config/starship.toml
-```
+See [Customization](#-customization) below for other presets.
 
 ---
 
@@ -172,6 +179,8 @@ plugins=(
   zsh-syntax-highlighting
 )
 ```
+
+> ⚠️ Order matters: `zsh-syntax-highlighting` must be the **last** plugin in the list, otherwise it can interfere with widgets defined by other plugins.
 
 ---
 
@@ -258,8 +267,9 @@ rm -rf ~/.oh-my-zsh
 sudo rm -f "$(which starship)"
 rm -f ~/.config/starship.toml
 
-# Restore your old .zshrc (if backed up by setup.sh)
-ls ~/.zshrc.backup.* 2>/dev/null && echo "Restore one of the above with: mv <file> ~/.zshrc"
+# Restore your most recent .zshrc backup (if setup.sh created one)
+latest=$(ls -t ~/.zshrc.backup.* 2>/dev/null | head -1)
+[ -n "$latest" ] && mv "$latest" ~/.zshrc && echo "Restored $latest → ~/.zshrc"
 ```
 
 ---
