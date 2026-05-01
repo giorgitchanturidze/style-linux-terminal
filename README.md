@@ -5,7 +5,7 @@
 
 > Transform your Linux terminal into a modern, beautiful shell — Zsh, Oh My Zsh, Starship prompt, Autosuggestions, Syntax Highlighting, and an automated setup script.
 
-![Terminal Preview](https://starship.rs/presets/img/gruvbox-rainbow.png)
+![Terminal Preview](./showcase/screenshot.png)
 
 ## ✨ What You Get
 

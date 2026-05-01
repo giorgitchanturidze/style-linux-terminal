@@ -1,0 +1,7 @@
+# Windows / WSL — NTFS metadata streams created when copying from Windows
+*:Zone.Identifier
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+*.swp
