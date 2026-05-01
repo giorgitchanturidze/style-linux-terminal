@@ -1,0 +1,6 @@
+{
+  "name": "showcase-node",
+  "version": "1.0.0",
+  "description": "Triggers Starship's nodejs module",
+  "private": true
+}
