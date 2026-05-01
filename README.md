@@ -1,5 +1,8 @@
 # 🚀 Style Linux Terminal
 
+[![Version](https://img.shields.io/github/v/release/giorgitchanturidze/style-linux-terminal?label=version)](https://github.com/giorgitchanturidze/style-linux-terminal/releases)
+[![License](https://img.shields.io/github/license/giorgitchanturidze/style-linux-terminal)](LICENSE)
+
 > Transform your Linux terminal into a modern, beautiful shell — Zsh, Oh My Zsh, Starship prompt, Autosuggestions, Syntax Highlighting, and an automated setup script.
 
 ![Terminal Preview](https://starship.rs/presets/img/gruvbox-rainbow.png)

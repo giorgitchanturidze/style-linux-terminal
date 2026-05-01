@@ -11,6 +11,8 @@
 
 set -e
 
+VERSION="2.0.0"
+
 # ─── Colors ──────────────────────────────────────────────────────────────────
 
 RED='\033[0;31m'
@@ -234,6 +236,8 @@ main() {
     echo "  ║     🚀 Style Linux Terminal Setup     ║"
     echo "  ╚═══════════════════════════════════════╝"
     echo -e "${NC}"
+    echo -e "  ${BOLD}Version ${VERSION}${NC}"
+    echo ""
     echo -e "  This script will set up a modern terminal with"
     echo -e "  Starship prompt and Zsh plugins."
     echo -e "  ${YELLOW}You'll be asked before each step.${NC}"
